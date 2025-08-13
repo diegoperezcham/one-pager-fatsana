@@ -123,11 +123,11 @@ function renderOnePager(container) {
             <div class="purple-bg text-white p-4 md:p-6 flex justify-between items-center">
                 <div class="flex-1">
                     <h1 class="text-2xl md:text-4xl font-bold mb-1 md:mb-2">Fotofacturas</h1>
-                    <h2 class="text-base md:text-xl">$3.2K MRR • 147% CAGR • Top 1% Performance</h2>
+                    <h2 class="text-base md:text-xl">$3.2K MRR • 147% CAGR</h2>
                     <div class="mt-3 grid grid-cols-2 md:grid-cols-4 gap-2 text-xs md:text-sm">
                         <div class="bg-white bg-opacity-20 rounded px-2 py-1 text-center">
                             <div class="font-bold">$3.2K</div>
-                            <div>MRR Real</div>
+                            <div>MRR</div>
                         </div>
                         <div class="bg-white bg-opacity-20 rounded px-2 py-1 text-center">
                             <div class="font-bold">147%</div>
@@ -138,7 +138,7 @@ function renderOnePager(container) {
                             <div>YoY Growth</div>
                         </div>
                         <div class="bg-white bg-opacity-20 rounded px-2 py-1 text-center">
-                            <div class="font-bold">241</div>
+                            <div class="font-bold">251</div>
                             <div>Usuarios</div>
                         </div>
                     </div>
@@ -189,15 +189,15 @@ function renderOnePager(container) {
                                 </li>
                                 <li class="flex items-baseline gap-2">
                                     <span class="w-2 h-2 rounded-full inline-block mt-2 purple-bg"></span>
-                                    <span><strong>MRR Real:</strong> <span class="purple-theme font-bold">$3,177 USD</span> <span class="text-xs text-gray-500">(RevenueCat $2,748 + Stripe $429)</span></span>
+                                    <span><strong>MRR:</strong> <span class="purple-theme font-bold">$3,177 USD</span> <span class="text-xs text-gray-500"></span></span>
                                 </li>
                                 <li class="flex items-baseline gap-2">
                                     <span class="w-2 h-2 rounded-full inline-block mt-2 purple-bg"></span>
-                                    <span><strong>ARR Actual:</strong> <span class="purple-theme font-bold">$38,120 USD</span> <span class="text-xs text-gray-500">(+38% vs estimado)</span></span>
+                                    <span><strong>ARR Acumulado:</strong> <span class="purple-theme font-bold">$20,565 USD</span> <span class="text-xs text-gray-500">(+38% vs estimado)</span></span>
                                 </li>
                                 <li class="flex items-baseline gap-2">
                                     <span class="w-2 h-2 rounded-full inline-block mt-2 purple-bg"></span>
-                                    <span><strong>CAGR Histórico:</strong> <span class="purple-theme font-bold">147.2%</span> <span class="text-xs text-gray-500">(Top 1% global)</span></span>
+                                    <span><strong>CAGR Histórico:</strong> <span class="purple-theme font-bold">147.2%</span> <span class="text-xs text-gray-500"></span></span>
                                 </li>
                             </ul>
                         </div>
@@ -245,9 +245,6 @@ function renderOnePager(container) {
                                     </div>
                                 </div>
                                 <div class="text-center mb-4">
-                                    <span class="font-semibold">Situación actual:</span> <span class="purple-theme font-bold">$3,177 USD MRR</span>
-                                    <div class="text-sm text-green-600 font-semibold">$38,120 USD ARR • 147.2% CAGR • Top 1% Performance</div>
-                                    <div class="text-xs text-gray-500 mt-1">Datos reales julio 2025 (RevenueCat + Stripe combinado)</div>
                                 </div>
                                 <div class="bg-gray-50 p-4 rounded-lg purple-left-border mt-4">
                                     <p class="text-center italic mb-2">"Iniciamos en México con un modelo probado antes de expandirnos a LATAM."</p>
@@ -340,8 +337,8 @@ function renderOnePager(container) {
                                         <h4 class="text-lg font-semibold mb-3 purple-theme">Impacto en MRR</h4>
                                         <div class="space-y-3">
                                             <div class="flex items-center justify-between">
-                                                <span>MRR actual</span>
-                                                <span class="font-bold">$3,295</span>
+                                                <span>MRR</span>
+                                                <span class="font-bold">3,177</span>
                                             </div>
                                             <div class="flex items-center justify-between">
                                                 <span>Solo 6 clientes B2B</span>
@@ -349,7 +346,7 @@ function renderOnePager(container) {
                                             </div>
                                             <div class="flex items-center justify-between border-t pt-2">
                                                 <span class="font-medium">Nuevo MRR total</span>
-                                                <span class="text-xl font-bold purple-theme">$6,895</span>
+                                                <span class="text-xl font-bold purple-theme">$6,777</span>
                                             </div>
                                             <div class="text-center mt-3 p-2 bg-green-100 rounded">
                                                 <span class="text-sm font-semibold text-green-700">+109% crecimiento MRR</span>
@@ -475,13 +472,10 @@ function renderOnePager(container) {
                                                 <span>Usuarios registrados</span>
                                                 <span class="font-bold text-lg">10,500+</span>
                                             </li>
-                                            <li class="flex items-center justify-between">
-                                                <span>Usuarios activos (facturando)</span>
-                                                <span class="font-bold text-lg">2,780+</span>
                                             </li>
                                             <li class="flex items-center justify-between">
                                                 <span>Usuarios pagados activos</span>
-                                                <span class="font-bold text-xl purple-theme">241</span>
+                                                <span class="font-bold text-xl purple-theme">251</span>
                                             </li>
                                             <li class="flex items-center justify-between">
                                                 <span>Tickets procesados</span>
@@ -559,7 +553,7 @@ function renderOnePager(container) {
                                 <div class="bg-gradient-to-r from-green-50 to-blue-50 border-l-4 p-4 rounded-r-lg mt-4" style="border-color: #22c55e;">
                                     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
                                         <div>
-                                            <h4 class="font-semibold mb-1 text-green-700">ARPU Competitivo</h4>
+                                            <h4 class="font-semibold mb-1 text-green-700">ARPU</h4>
                                             <div class="text-2xl font-bold text-green-600">$13.18 USD</div>
                                             <p class="text-xs text-gray-600">vs $8-15 industria</p>
                                         </div>
@@ -701,7 +695,7 @@ function renderOnePager(container) {
                                                         <!-- Línea divisoria actual/proyección con marcador -->
                                                         <div class="absolute top-16 w-16 border-t border-white border-dashed">
                                                             <div class="absolute -right-20 -top-3 text-xs">
-                                                                <div class="bg-white text-xs px-1 py-0 rounded-sm border border-purple-200">$23,344 (actual)</div>
+                                                                <div class="bg-white text-xs px-1 py-0 rounded-sm border border-purple-200">$20,565 (actual)</div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -790,6 +784,8 @@ function renderOnePager(container) {
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Termsheet Strategic Partnership -->
@@ -964,7 +960,7 @@ function renderOnePager(container) {
                                         <div class="w-16 h-16 mx-auto mb-3 rounded-full flex items-center justify-center bg-yellow-500">
                                             <i data-lucide="zap" class="text-white text-xl"></i>
                                         </div>
-                                        <h4 class="text-xl font-bold text-yellow-700">Programa Pilot</h4>
+                                        <h4 class="text-xl font-bold text-yellow-700">Programa Piloto</h4>
                                         <p class="text-sm text-gray-600">Validación antes del acuerdo completo</p>
                                     </div>
                                     
