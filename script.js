@@ -122,8 +122,27 @@ function renderOnePager(container) {
             <!-- Encabezado -->
             <div class="purple-bg text-white p-4 md:p-6 flex justify-between items-center">
                 <div class="flex-1">
-                    <h1 class="text-2xl md:text-4xl font-bold mb-1 md:mb-2">One Pager</h1>
-                    <h2 class="text-base md:text-xl">Sistema de facturación automática de gastos.</h2>
+                    <h1 class="text-2xl md:text-4xl font-bold mb-1 md:mb-2">Fotofacturas</h1>
+                    <h2 class="text-base md:text-xl">$3.2K MRR • 147% CAGR • Top 1% Performance</h2>
+                    <div class="mt-3 grid grid-cols-2 md:grid-cols-4 gap-2 text-xs md:text-sm">
+                        <div class="bg-white bg-opacity-20 rounded px-2 py-1 text-center">
+                            <div class="font-bold">$3.2K</div>
+                            <div>MRR Real</div>
+                        </div>
+                        <div class="bg-white bg-opacity-20 rounded px-2 py-1 text-center">
+                            <div class="font-bold">147%</div>
+                            <div>CAGR</div>
+                        </div>
+                        <div class="bg-white bg-opacity-20 rounded px-2 py-1 text-center">
+                            <div class="font-bold">+92%</div>
+                            <div>YoY Growth</div>
+                        </div>
+                        <div class="bg-white bg-opacity-20 rounded px-2 py-1 text-center">
+                            <div class="font-bold">241</div>
+                            <div>Usuarios</div>
+                        </div>
+                    </div>
+                    <h3 class="text-sm md:text-base opacity-90">Sistema de facturación automática de gastos impulsado por IA</h3>
                 </div>
                 <div class="ml-4">
                     <img src="https://fotofacturas.ai/blog/wp-content/uploads/2024/10/logoff.png" alt="Fotofacturas Logo" class="h-8 md:h-10">
@@ -170,7 +189,15 @@ function renderOnePager(container) {
                                 </li>
                                 <li class="flex items-baseline gap-2">
                                     <span class="w-2 h-2 rounded-full inline-block mt-2 purple-bg"></span>
-                                    <span><strong>MRR:</strong> <span class="purple-theme font-bold">$3,295 USD</span></span>
+                                    <span><strong>MRR Real:</strong> <span class="purple-theme font-bold">$3,177 USD</span> <span class="text-xs text-gray-500">(RevenueCat $2,748 + Stripe $429)</span></span>
+                                </li>
+                                <li class="flex items-baseline gap-2">
+                                    <span class="w-2 h-2 rounded-full inline-block mt-2 purple-bg"></span>
+                                    <span><strong>ARR Actual:</strong> <span class="purple-theme font-bold">$38,120 USD</span> <span class="text-xs text-gray-500">(+38% vs estimado)</span></span>
+                                </li>
+                                <li class="flex items-baseline gap-2">
+                                    <span class="w-2 h-2 rounded-full inline-block mt-2 purple-bg"></span>
+                                    <span><strong>CAGR Histórico:</strong> <span class="purple-theme font-bold">147.2%</span> <span class="text-xs text-gray-500">(Top 1% global)</span></span>
                                 </li>
                             </ul>
                         </div>
@@ -218,8 +245,9 @@ function renderOnePager(container) {
                                     </div>
                                 </div>
                                 <div class="text-center mb-4">
-                                    <span class="font-semibold">Situación actual:</span> <span class="purple-theme font-bold">$3,295 USD</span>
-                                    <div class="text-xs text-gray-500 mt-1">Actualizado Julio 2025</div>
+                                    <span class="font-semibold">Situación actual:</span> <span class="purple-theme font-bold">$3,177 USD MRR</span>
+                                    <div class="text-sm text-green-600 font-semibold">$38,120 USD ARR • 147.2% CAGR • Top 1% Performance</div>
+                                    <div class="text-xs text-gray-500 mt-1">Datos reales julio 2025 (RevenueCat + Stripe combinado)</div>
                                 </div>
                                 <div class="bg-gray-50 p-4 rounded-lg purple-left-border mt-4">
                                     <p class="text-center italic mb-2">"Iniciamos en México con un modelo probado antes de expandirnos a LATAM."</p>
@@ -452,8 +480,8 @@ function renderOnePager(container) {
                                                 <span class="font-bold text-lg">2,780+</span>
                                             </li>
                                             <li class="flex items-center justify-between">
-                                                <span>Usuarios pagados</span>
-                                                <span class="font-bold text-xl purple-theme">251</span>
+                                                <span>Usuarios pagados activos</span>
+                                                <span class="font-bold text-xl purple-theme">241</span>
                                             </li>
                                             <li class="flex items-center justify-between">
                                                 <span>Tickets procesados</span>
@@ -525,6 +553,26 @@ function renderOnePager(container) {
                                             <p class="text-sm text-gray-600">Valor aproximado</p>
                                         </div>
                                         <div class="text-3xl font-bold purple-theme">+$352K USD</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-gradient-to-r from-green-50 to-blue-50 border-l-4 p-4 rounded-r-lg mt-4" style="border-color: #22c55e;">
+                                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+                                        <div>
+                                            <h4 class="font-semibold mb-1 text-green-700">ARPU Competitivo</h4>
+                                            <div class="text-2xl font-bold text-green-600">$13.18 USD</div>
+                                            <p class="text-xs text-gray-600">vs $8-15 industria</p>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-semibold mb-1 text-green-700">Crecimiento YoY</h4>
+                                            <div class="text-2xl font-bold text-green-600">+91.7%</div>
+                                            <p class="text-xs text-gray-600">Julio 2025 vs 2024</p>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-semibold mb-1 text-green-700">Growth Multiple</h4>
+                                            <div class="text-2xl font-bold text-green-600">110.2x</div>
+                                            <p class="text-xs text-gray-600">Desde 2022</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -957,7 +1005,7 @@ function renderOnePager(container) {
 
             <!-- Footer -->
             <div class="purple-bg text-white p-4 md:p-4 text-center">
-                <p class="text-sm md:text-base">© 2025 Fotofacturas - Optimización de Impuestos Impulsada por IA</p>
+                <p class="text-sm md:text-base">© 2025 Fotofacturas - $3.2K MRR • 147% CAGR • Ready for B2B Scaling</p>
             </div>
         </div>
     `;
