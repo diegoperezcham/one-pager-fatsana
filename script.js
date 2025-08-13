@@ -744,97 +744,210 @@ function renderOnePager(container) {
                                 </div>
                     </div>
 
-                    <!-- Oportunidades de Partnership B2B -->
+                    <!-- Termsheet Strategic Partnership -->
                     <div>
                         <div class="section-header" data-section="partnership">
                             <div class="flex items-center gap-2 font-semibold text-xl purple-theme">
                                 <i data-lucide="handshake" class="purple-theme"></i>
-                                Oportunidad de Partnership B2B
+                                Termsheet - Partnership Estratégico B2B
                             </div>
                             <i data-lucide="chevron-up" class="purple-theme chevron"></i>
                         </div>
                         <div class="section-content" id="partnership-content">
                             <div class="mt-3 ml-4 md:ml-8">
-                                <p class="text-center text-lg mb-6 text-gray-700">
-                                    Buscamos socio estratégico para liderar y acelerar nuestro crecimiento en el segmento B2B
-                                </p>
+                                <!-- Header con valor del acuerdo -->
+                                <div class="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-6 rounded-lg mb-6 text-center">
+                                    <h3 class="text-2xl font-bold mb-2">$25,000 USD Investment</h3>
+                                    <p class="text-lg">Partnership estratégico para acelerar canal B2B</p>
+                                    <div class="mt-3 text-sm opacity-90">Valuación post-money: $500K USD</div>
+                                </div>
                                 
+                                <!-- Estructura principal del deal -->
                                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                                    <!-- Opción A: Equity + Performance -->
-                                    <div class="bg-white p-6 rounded-lg shadow-lg border-2 border-purple-200">
+                                    <!-- Investment Structure -->
+                                    <div class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-purple-500">
                                         <div class="text-center mb-4">
                                             <div class="w-16 h-16 mx-auto mb-3 rounded-full flex items-center justify-center purple-bg">
-                                                <i data-lucide="users" class="text-white text-xl"></i>
+                                                <i data-lucide="banknote" class="text-white text-xl"></i>
                                             </div>
-                                            <h4 class="text-xl font-bold purple-theme">Opción A: Equity + Performance</h4>
-                                            <p class="text-sm text-gray-600">Partnership estratégico con participación</p>
+                                            <h4 class="text-xl font-bold purple-theme">Estructura de Inversión</h4>
                                         </div>
                                         
-                                        <div class="space-y-3 mb-6">
-                                            <div class="flex items-center gap-2">
-                                                <i data-lucide="check-circle" class="text-green-500 w-4 h-4"></i>
-                                                <span class="text-sm"><strong>5% equity base</strong> (vesting 4 años)</span>
+                                        <div class="space-y-4">
+                                            <div class="bg-purple-50 p-4 rounded-lg">
+                                                <div class="text-center">
+                                                    <div class="text-2xl font-bold purple-theme">5%</div>
+                                                    <div class="text-sm text-gray-600">Equity Base Garantizado</div>
+                                                    <div class="text-xs mt-1">Vesting 4 años • Cliff 6 meses</div>
+                                                </div>
                                             </div>
-                                            <div class="flex items-center gap-2">
-                                                <i data-lucide="check-circle" class="text-green-500 w-4 h-4"></i>
-                                                <span class="text-sm"><strong>+0.5% por cada $10K ARR</strong> cerrado</span>
+                                            
+                                            <div class="text-center text-sm text-gray-600">
+                                                <strong>Modalidades de pago:</strong>
                                             </div>
-                                            <div class="flex items-center gap-2">
-                                                <i data-lucide="check-circle" class="text-green-500 w-4 h-4"></i>
-                                                <span class="text-sm"><strong>Cap total: 10%</strong> equity</span>
-                                            </div>
-                                            <div class="flex items-center gap-2">
-                                                <i data-lucide="check-circle" class="text-green-500 w-4 h-4"></i>
-                                                <span class="text-sm"><strong>Cliff: 6 meses</strong> de commitment</span>
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="bg-purple-50 p-3 rounded-lg mb-4">
-                                            <div class="text-center">
-                                                <div class="text-sm text-gray-600">Potencial Máximo</div>
-                                                <div class="text-lg font-bold purple-theme">10% equity total</div>
-                                                <div class="text-xs text-gray-500">Con $100K+ ARR cerrado</div>
+                                            
+                                            <div class="space-y-2 text-sm">
+                                                <div class="flex items-center gap-2">
+                                                    <div class="w-2 h-2 rounded-full purple-bg"></div>
+                                                    <span><strong>Opción A:</strong> Préstamo 12% anual</span>
+                                                </div>
+                                                <div class="flex items-center gap-2">
+                                                    <div class="w-2 h-2 rounded-full purple-bg"></div>
+                                                    <span><strong>Opción B:</strong> Capitalización por equity</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                     
-                                    <!-- Opción B: Solo Performance -->
-                                    <div class="bg-white p-6 rounded-lg shadow-lg border-2 border-green-200">
+                                    <!-- Performance Equity -->
+                                    <div class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-green-500">
                                         <div class="text-center mb-4">
                                             <div class="w-16 h-16 mx-auto mb-3 rounded-full flex items-center justify-center bg-green-600">
-                                                <i data-lucide="target" class="text-white text-xl"></i>
+                                                <i data-lucide="trending-up" class="text-white text-xl"></i>
                                             </div>
-                                            <h4 class="text-xl font-bold text-green-700">Opción B: Solo Performance</h4>
-                                            <p class="text-sm text-gray-600">100% basado en resultados</p>
+                                            <h4 class="text-xl font-bold text-green-700">Performance Equity</h4>
                                         </div>
                                         
-                                        <div class="space-y-3 mb-6">
-                                            <div class="flex items-center gap-2">
-                                                <i data-lucide="check-circle" class="text-green-500 w-4 h-4"></i>
-                                                <span class="text-sm"><strong>0% equity inicial</strong></span>
+                                        <div class="space-y-4">
+                                            <div class="bg-green-50 p-4 rounded-lg text-center">
+                                                <div class="text-lg font-bold text-green-700">+0.5%</div>
+                                                <div class="text-sm text-gray-600">Por cada $10K ARR B2B</div>
+                                                <div class="text-xs mt-1">Activo y mantenido 6+ meses</div>
                                             </div>
-                                            <div class="flex items-center gap-2">
-                                                <i data-lucide="check-circle" class="text-green-500 w-4 h-4"></i>
-                                                <span class="text-sm"><strong>1% por cada $15K ARR</strong> cerrado</span>
-                                            </div>
-                                            <div class="flex items-center gap-2">
-                                                <i data-lucide="check-circle" class="text-green-500 w-4 h-4"></i>
-                                                <span class="text-sm"><strong>Cap total: 10%</strong> equity</span>
-                                            </div>
-                                            <div class="flex items-center gap-2">
-                                                <i data-lucide="check-circle" class="text-green-500 w-4 h-4"></i>
-                                                <span class="text-sm"><strong>Mínimo: $50K ARR</strong> en 12 meses</span>
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="bg-green-50 p-3 rounded-lg mb-4">
-                                            <div class="text-center">
-                                                <div class="text-sm text-gray-600">Potencial Máximo</div>
-                                                <div class="text-lg font-bold text-green-700">10% equity total</div>
-                                                <div class="text-xs text-gray-500">Con $150K+ ARR cerrado</div>
+                                            
+                                            <div class="space-y-2 text-sm">
+                                                <div class="flex justify-between">
+                                                    <span>Timeline máximo:</span>
+                                                    <span class="font-semibold">24 meses</span>
+                                                </div>
+                                                <div class="flex justify-between">
+                                                    <span>Cap total:</span>
+                                                    <span class="font-semibold text-green-700">10% equity</span>
+                                                </div>
+                                                <div class="flex justify-between">
+                                                    <span>Max performance:</span>
+                                                    <span class="font-semibold">+5% adicional</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                
+                                <!-- Uso de Fondos Visual -->
+                                <div class="bg-gray-50 p-6 rounded-lg mb-6">
+                                    <h4 class="text-xl font-bold mb-4 text-center purple-theme">Uso de Fondos - $25,000 USD</h4>
+                                    
+                                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                        <!-- Plataforma B2B -->
+                                        <div class="bg-white p-4 rounded-lg text-center border-l-4 border-blue-500">
+                                            <div class="w-12 h-12 mx-auto mb-3 rounded-full flex items-center justify-center bg-blue-500">
+                                                <i data-lucide="code" class="text-white"></i>
+                                            </div>
+                                            <div class="text-2xl font-bold text-blue-600">40%</div>
+                                            <div class="text-lg font-semibold mb-2">$10,000</div>
+                                            <div class="text-sm text-gray-600">
+                                                <div class="font-medium">Plataforma B2B</div>
+                                                <div class="mt-1">• API & Automatización</div>
+                                                <div>• Equipo subcontratado</div>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Talent -->
+                                        <div class="bg-white p-4 rounded-lg text-center border-l-4 border-purple-500">
+                                            <div class="w-12 h-12 mx-auto mb-3 rounded-full flex items-center justify-center purple-bg">
+                                                <i data-lucide="users" class="text-white"></i>
+                                            </div>
+                                            <div class="text-2xl font-bold purple-theme">40%</div>
+                                            <div class="text-lg font-semibold mb-2">$10,000</div>
+                                            <div class="text-sm text-gray-600">
+                                                <div class="font-medium">Talent</div>
+                                                <div class="mt-1">• Mid-Senior Developer</div>
+                                                <div>• Vendedor B2B</div>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Marketing -->
+                                        <div class="bg-white p-4 rounded-lg text-center border-l-4 border-green-500">
+                                            <div class="w-12 h-12 mx-auto mb-3 rounded-full flex items-center justify-center bg-green-500">
+                                                <i data-lucide="megaphone" class="text-white"></i>
+                                            </div>
+                                            <div class="text-2xl font-bold text-green-600">20%</div>
+                                            <div class="text-lg font-semibold mb-2">$5,000</div>
+                                            <div class="text-sm text-gray-600">
+                                                <div class="font-medium">Marketing</div>
+                                                <div class="mt-1">• Campañas B2B</div>
+                                                <div>• Programa referidos</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Performance Simulator -->
+                                <div class="bg-gradient-to-r from-gray-50 to-blue-50 p-6 rounded-lg mb-6">
+                                    <h4 class="text-lg font-bold mb-4 text-center purple-theme">Simulador de Performance Equity</h4>
+                                    
+                                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                                        <div class="bg-white p-3 rounded-lg shadow-sm">
+                                            <div class="text-sm text-gray-600">$10K ARR</div>
+                                            <div class="text-lg font-bold purple-theme">5.5%</div>
+                                            <div class="text-xs text-gray-500">Total equity</div>
+                                        </div>
+                                        <div class="bg-white p-3 rounded-lg shadow-sm">
+                                            <div class="text-sm text-gray-600">$30K ARR</div>
+                                            <div class="text-lg font-bold purple-theme">6.5%</div>
+                                            <div class="text-xs text-gray-500">Total equity</div>
+                                        </div>
+                                        <div class="bg-white p-3 rounded-lg shadow-sm">
+                                            <div class="text-sm text-gray-600">$50K ARR</div>
+                                            <div class="text-lg font-bold purple-theme">7.5%</div>
+                                            <div class="text-xs text-gray-500">Total equity</div>
+                                        </div>
+                                        <div class="bg-white p-3 rounded-lg shadow-sm border-2 border-purple-200">
+                                            <div class="text-sm text-gray-600">$100K ARR</div>
+                                            <div class="text-lg font-bold purple-theme">10%</div>
+                                            <div class="text-xs text-purple-600 font-semibold">Max equity</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Pilot Program -->
+                                <div class="bg-white p-6 rounded-lg shadow-lg border-2 border-yellow-200">
+                                    <div class="text-center mb-4">
+                                        <div class="w-16 h-16 mx-auto mb-3 rounded-full flex items-center justify-center bg-yellow-500">
+                                            <i data-lucide="zap" class="text-white text-xl"></i>
+                                        </div>
+                                        <h4 class="text-xl font-bold text-yellow-700">Programa Pilot</h4>
+                                        <p class="text-sm text-gray-600">Validación antes del acuerdo completo</p>
+                                    </div>
+                                    
+                                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                        <div class="text-center">
+                                            <div class="text-lg font-bold text-yellow-600">$5,000</div>
+                                            <div class="text-sm text-gray-600">Inversión inicial</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-lg font-bold text-yellow-600">1%</div>
+                                            <div class="text-sm text-gray-600">Equity provisional</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-lg font-bold text-yellow-600">90 días</div>
+                                            <div class="text-sm text-gray-600">Timeline validación</div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="mt-4 bg-yellow-50 p-3 rounded-lg">
+                                        <div class="text-sm font-semibold mb-2">Targets del Pilot:</div>
+                                        <div class="text-sm space-y-1">
+                                            <div>• 3-5 leads B2B calificados</div>
+                                            <div>• 2 demos completos</div>
+                                            <div>• 1 propuesta formal enviada</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Bottom CTA -->
+                                <div class="mt-6 text-center bg-gradient-to-r from-purple-600 to-blue-600 text-white p-4 rounded-lg">
+                                    <p class="font-semibold">"Partnership estratégico para acelerar el canal B2B con incentivos alineados y riesgo balanceado"</p>
                                 </div>
                             </div>
                         </div>
